@@ -18,11 +18,11 @@ Technologies Used
 -----------------
 
 - **Frontend**:
-  - React
+  - React.JS
   - Tailwind CSS
 
 - **Backend**:
-  - Node.js
+  - Node.JS
   - Python (for resume parsing using OpenAI API and PyPDF2)
   
 - **Database**:
@@ -58,31 +58,33 @@ git clone https://github.com/DeepakVegda/IT090-91
 - Start the frontend:
   ```
   cd ../frontend
-  npm start
+  npm run dev
   ```
 - Start the backend:
   ```
   cd ../backend
   npm start
   ```
+- Start the pythonbackend:
+  ```
+  cd ../pythonbackend
+  python app.py
+  ```
 
 4. **Access the Application**:
-- Once both frontend and backend servers are running, access the application at `http://localhost:3000` in your web browser.
+- Once both frontend and backend servers are running, access the application at `http://localhost:5173` in your web browser.
 
-Contributing
-------------
+## Contributors
 
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+Special thanks to the following contributors for their valuable contributions to this project:
 
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/yourfeature`).
-3. Commit your changes (`git commit -am 'Add new feature'`).
-4. Push to the branch (`git push origin feature/yourfeature`).
-5. Create a new pull request.
+- *Brij Patel*
+- *Danish Patel*
+
 
 
 Acknowledgements
 ----------------
 
-Special thanks to Professor Deepak C. Vegada for his guidance and support throughout the development of this project. His expertise and mentorship have been invaluable in shaping our understanding and implementation of the concepts involved. We are grateful for his dedication and commitment to our learning journey.
+Special thanks to Prof. Deepak C. Vegda sir for his guidance and support throughout the development of this project. His expertise and mentorship have been invaluable in shaping our understanding and implementation of the concepts involved. We are grateful for his dedication and commitment to our learning journey.
 
